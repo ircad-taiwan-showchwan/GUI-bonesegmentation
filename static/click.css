@@ -1,0 +1,128 @@
+@font-face {
+
+    font-family: 'Arciform';
+
+    src: url('Arciform.otf');}
+@font-face {
+
+    font-family: 'CircularStd';
+
+    src: url('CircularStd-Book.otf');}
+
+body { 
+	margin:0;  
+	padding:0;  
+	background: no-repeat center center fixed;  
+	background-image: url(surgeons2.jpg); /*-moz-linear-gradient(#6A6C6B, #6A6C6B);  */
+	background-image: url(surgeons2.jpg); /*-webkit-linear-gradient(#2D4245, #2D4245);  */
+	background-size : cover; }
+
+
+#main { 
+	margin: auto;  
+	width: 50%; 
+	max-width:600px; 
+	margin-top: 50px; 
+	margin-bottom:10px;
+    	background-color: #F3F3F3; 
+    	box-shadow: 0px 0px 30px black; 
+    	border-radius: 10px;  
+    	text-align:center;  
+    	padding-top: 10px; 
+    	padding-bottom: 10px;  }
+
+#color{
+	margin:auto;  
+	padding:0;
+	width:30px;
+	height:30px;
+	display:block;
+	background: no-repeat center center fixed;
+	box-shadow: 1px 1px 0px black;  }
+
+#pixeldata0{
+	height: 30px;
+	top:100px }
+
+h1 { 
+	font-family:'CircularStd';
+	color:#07A3B2;
+	/*text-shadow: 1px 1px 2px #2C2235; */ 
+	font-size: 180%; }
+
+/*#button { 
+	display:block;
+	margin:auto;  
+	left: 39%; 
+	top: 30px; 
+	width: 140px;   
+	background-image: -webkit-linear-gradient(#F9F9F9, #F9F9F9);
+	color:#07A3B2;  
+	border: none; 
+	border-radius: 10px;  
+	box-shadow: 1px 1px 0px black; 
+	font-size: 130%; 
+	font-family:'CircularStd'; }*/
+
+#t_logo{
+	position:center;
+	display:block;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto; }
+
+
+#pixeldata0{	
+	font-size: 130%;
+	font-family:'CircularStd'; }
+
+#next{ 
+	font-family: Arciform;
+	position:relative;  
+	left: 45%; 
+	top: 23px; }
+
+button{
+	display:block;
+	margin:auto;
+	left: 39%; 
+	top: 30px; 
+	width: 140px; 
+	border:none;
+	color: white;
+	border-radius: 10px;
+	font-size: 0.%; 
+	padding: 8px 5px;
+	cursor:pointer;
+	border-radius: 10px; 
+	font-family:'CircularStd';}		
+	
+.button {
+
+background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
+
+
+	}
+
+.button:hover{
+	
+	animation:pulsation_bouton .8s ease-out
+	
+	}
+
+@keyframes pulsation_bouton {
+	
+from{
+	box-shadow:0 0 0 -3px hsla(0,0%,100%,0),0 0 0 0 hsl(44,66%,57%)
+	
+	}
+to{
+	
+	box-shadow:0 0 0 10px hsla(0,0%,100%,0),0 0 0 13px hsla(0,0%,100%,0)}
+	
+	}
+    
+
+
+
+ 

@@ -1,0 +1,146 @@
+@font-face {
+
+    font-family: 'Arciform';
+
+    src: url('Arciform.otf');}
+@font-face {
+
+    font-family: 'CircularStd';
+
+    src: url('CircularStd-Book.otf');}
+body { 
+	margin:0;  
+	padding:0;  
+	background: no-repeat center center fixed;  
+	background-image: url(Optimization.jpg); /*-moz-linear-gradient(#6A6C6B, #6A6C6B);  */
+	background-image: url(Optimization.jpg); /
+	/*background-image: -webkit-linear-gradient(#2D4245, #2D4245); */ 
+	background-size : cover; }
+#main { 
+	margin: auto;  
+	width: 50%;  
+	margin-top: 100px; 
+    	background-color: #F3F3F3; 
+    	box-shadow: 0px 0px 30px black; 
+   	border-radius: 10px;  
+    	text-align:center;  
+   	padding-top: 10px;  
+   	padding-bottom: 40px;  }
+
+h1 { 
+	font-family:'Arial';
+	/*text-shadow: 1px 1px 2px #2C2235; */ 
+	font-size: 150%; }
+form { 
+	font-family: Arciform;  
+	text-shadow: 1px 1px 2px white;  
+	text-align: left;
+}
+label { 
+	display: block; 
+	width: 30px; 
+	float:left;  
+	margin-left: 65px; 
+	position: relative; 
+	top: 7px;
+  }
+
+#btsub { 
+	display:block;
+	margin:auto;
+	left: 39%; 
+	top: 30px; 
+	width: 140px; 
+	border:none;
+	color: white;
+	border-radius: 10px;
+	font-size: 0.%; 
+	padding: 8px 5px;
+	cursor:pointer;
+	border-radius: 10px; 
+	font-family:'CircularStd';}
+
+#btdisplay { 
+	display:block;
+	margin:auto;
+	left: 39%; 
+	top: 30px; 
+	width: 140px; 
+	border:none;
+	color: white;
+	border-radius: 10px;
+	font-size: 0.%; 
+	padding: 8px 5px;
+	cursor:pointer;
+	border-radius: 10px; 
+	font-family:'CircularStd';}
+
+#completed{
+	display:block;
+	margin:auto;
+	font-size: 130%;
+	font-family:'CircularStd'; }
+
+
+.button {
+
+background:linear-gradient(135deg, #17ead9 0%,#6078ea 100%);
+
+
+	}
+
+.button:hover{
+	
+	animation:pulsation_bouton .8s ease-out
+
+	}
+
+@keyframes pulsation_bouton {
+	
+from{
+	box-shadow:0 0 0 -3px hsla(0,0%,100%,0),0 0 0 0 hsl(44,66%,57%)
+	
+	}
+to{
+	
+	box-shadow:0 0 0 10px hsla(0,0%,100%,0),0 0 0 13px hsla(0,0%,100%,0)}
+	
+	}
+    
+
+
+
+#next{ 
+	font-family: Arciform;
+	position:relative;  
+	left: 39%; 
+	top: 23px; }
+
+#t_logo{
+	position:center;
+	display:block;
+	width:auto;
+	margin-left:auto;
+	margin-right:auto; }
+ 
+.flashed {
+	position: relative;
+	right:20px;
+	list-style-type: none; }
+.flashed li {
+	font-family: Port Lligat Slab; 
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 9px black; }
+.succes li {
+	background-image: -moz-linear-gradient(#B7FF4F, #6CD043);
+	background-image: -webkit-linear-gradient(#B7FF4F, #6CD043); }
+.error li {
+	background-image: -moz-linear-gradient(#F43600, #D83C31);
+	background-image: -webkit-linear-gradient(#F43600, #D83C31); }
+.fichiers {
+	text-align: left;
+	list-style-type: circle;
+	font-family: Port Lligat Slab;
