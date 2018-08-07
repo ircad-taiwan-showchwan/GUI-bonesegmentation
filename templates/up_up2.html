@@ -1,0 +1,30 @@
+{% extends 'up_squelette.html' %}
+
+
+{% block title %}Upload d'images{% endblock %}
+
+
+{% block main %}
+
+<h1> 1. Select files to upload :</h1>
+
+<br></br>
+
+<p id="completed"> Upload completed ! <p/>
+
+
+<br></br>
+<h1> 2. Select an image to display :</h1>
+
+<form action="" method="post" enctype="multipart/form-data">
+
+    <label for="fic2">Files</label><input id="fic2" type="file" name="fic2" />
+
+    <input class="button" id="btdisplay" type="submit" value="Upload"/>
+</form>
+
+<br></br>
+<p><a id="next" href="{{ url_for('click') }}"> Next </a></p>
+{% endblock %}
+
+

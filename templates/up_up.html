@@ -1,0 +1,37 @@
+{% extends 'up_squelette.html' %}
+
+
+{% block title %}Upload d'images{% endblock %}
+
+
+{% block main %}
+
+<!-- upload all the dicom files --> 
+<h1> 1. Select files to upload :</h1>
+
+<form name ="btsub" action="" method="post" enctype="multipart/form-data">
+
+	<!-- Browse files button, thanks to the input, file type -->
+    <label for="fic">Files</label><input id="fic" type="file" name="fic" multiple="" />
+
+    <!-- upload button -->
+    <input class="button" id="btsub" name ="btsub" type="submit" value="Upload"/>
+</form>
+
+<br></br>
+
+<!-- upload one dicom the user want to display -->
+<h1> 2. Select an image to display :</h1>
+
+<form action="" method="post" enctype="multipart/form-data">
+	<!-- Browse files button, thanks to the input, file type -->
+    <label for="fic2">File</label><input id="fic2" type="file" name="fic2" />
+    <!-- upload button -->
+    <input class="button" id="btdisplay" type="submit" value="Upload"/>
+</form>
+
+
+
+{% endblock %}
+
+

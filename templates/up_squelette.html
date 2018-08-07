@@ -1,0 +1,46 @@
+<!doctype html>
+
+<html class="no-js" lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>{% block title %}{% endblock %}</title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Merienda One">
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Port Lligat Slab">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='up.css') }}">
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" </script>
+    <script src="../static/click.js"></script>
+
+
+</head>
+
+<body>
+
+
+<div id="main">
+
+    {% block main %}{% endblock %}
+
+</div>
+
+<div class ="barre">
+<p class="logo_center text-center">
+</p>
+<img id="t_logo" src="{{ url_for('static', filename='logo.png')}}">
+
+</div>              
+
+</div> 
+</body>
+
+</html>
